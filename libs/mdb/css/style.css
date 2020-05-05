@@ -1,0 +1,35 @@
+body {
+    background-color: #eee !important;
+}
+
+main {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+   
+}
+.fixed-btn-action{
+  position: fixed;
+  z-index: 998;
+  right: 35px;
+  bottom: 35px;
+  margin-bottom: 0;
+  padding-top: 15px;
+}
+.fixed-action-btn{
+	
+}
+
+ .fixed-action-btn ul a.btn {
+      opacity: 0;
+      transition-duration: 0.4s;
+      transform: scale(0.4) translate(0);
+       }
+      .fixed-action-btn ul a.btn.shown {
+        transform: scale(1) translate(0);
+        opacity: 1; }
+
+
+
+.fixed-action-btn.active ul {
+    height: 140px !important;
+     }
